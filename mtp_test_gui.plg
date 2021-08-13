@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mtp_test_gui - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/mtp_test_gui.res" /d "_DEBUG" "C:\test\mtp_test_gui\mtp_test_gui.rc"" 
+Creating temporary file "C:\Users\Mason\AppData\Local\Temp\RSP9C02.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "./usb_inc" /I "./user_inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/mtp_test_gui.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\test\mtp_test_gui\mtp_test_gui.cpp"
+"C:\test\mtp_test_gui\mtp_test_guiDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mason\AppData\Local\Temp\RSP9C02.tmp" 
+Creating temporary file "C:\Users\Mason\AppData\Local\Temp\RSP9C03.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "./usb_inc" /I "./user_inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/mtp_test_gui.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\test\mtp_test_gui\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mason\AppData\Local\Temp\RSP9C03.tmp" 
+Creating temporary file "C:\Users\Mason\AppData\Local\Temp\RSP9C04.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/cps8852_cp.pdb" /debug /machine:I386 /out:"Debug/cps8852_cp.exe" /pdbtype:sept /libpath:"./usb_lib" 
+.\Debug\mtp_test_gui.obj
+.\Debug\mtp_test_guiDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\mtp_test_gui.res
+]
+Creating command line "link.exe @C:\Users\Mason\AppData\Local\Temp\RSP9C04.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+mtp_test_gui.cpp
+c:\test\mtp_test_gui\user_inc\usb_lib.h(63) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\usb_lib.h(78) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(51) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(91) : warning C4101: 'pkg_len' : unreferenced local variable
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(111) : warning C4101: 'pkg_len' : unreferenced local variable
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(281) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(291) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(460) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(470) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(658) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(668) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\hex_lib.h(13) : warning C4244: 'return' : conversion from 'long' to 'unsigned char', possible loss of data
+c:\test\mtp_test_gui\user_inc\hex_lib.h(55) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\hex_lib.h(66) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\hex_lib.h(71) : warning C4018: '<' : signed/unsigned mismatch
+mtp_test_guiDlg.cpp
+c:\test\mtp_test_gui\user_inc\usb_lib.h(63) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\usb_lib.h(78) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(51) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(91) : warning C4101: 'pkg_len' : unreferenced local variable
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(111) : warning C4101: 'pkg_len' : unreferenced local variable
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(281) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(291) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(460) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(470) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(658) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\i2c_lib.h(668) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\hex_lib.h(13) : warning C4244: 'return' : conversion from 'long' to 'unsigned char', possible loss of data
+c:\test\mtp_test_gui\user_inc\hex_lib.h(55) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\hex_lib.h(66) : warning C4018: '<' : signed/unsigned mismatch
+c:\test\mtp_test_gui\user_inc\hex_lib.h(71) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+cps8852_cp.exe - 0 error(s), 30 warning(s)
+</pre>
+</body>
+</html>
